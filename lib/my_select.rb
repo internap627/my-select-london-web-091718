@@ -3,7 +3,9 @@ def my_select(array)
   i = 0
   newArray = []
   while i < array.length
-  if 
+  if yield array[i] == true
+    newArray.push(array[i])
+  end
   i += 1
   end
 
