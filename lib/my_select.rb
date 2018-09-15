@@ -3,7 +3,7 @@ def my_select(array)
   i = 0
   newArray = []
   while i < array.length
-  
+  if 
   i += 1
   end
 
